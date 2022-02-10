@@ -1,0 +1,124 @@
+/* BEGINNING OF CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+  /* END OF CSS RESET */
+
+div {
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+
+  /* START OF SECTION FORMAT */
+
+ section {
+      width: 100vw;
+      height: 100vh;
+  }
+
+section.first {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50%;
+    max-width: 1200px;
+    background-color: #efd592;
+  }
+
+section.second {
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX( -50%);
+    height: 50%;
+    max-width: 1200px;
+    background-color: #4343f9;
+  }
+
+  /* END OF SECTION FORMAT */
+
+  /* START OF BUTTON FORMAT */
+
+section button.a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #242d38;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #efd592;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section button.b {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: 200px;
+    height: 60px;
+    border: 6px solid #242d38;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    color: #242d38;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section button.c {
+    position: absolute;
+    bottom: 40px;
+    right: 50%;
+    transform: translateX(50%);
+    width: 200px;
+    height: 60px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+    background-color: #4343f9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+  /* END OF BUTTON FORMAT */
